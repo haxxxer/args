@@ -4,7 +4,7 @@
 To configure this tool run the following command:
 
 
-curl https://raw.githubusercontent.com/haxxxer/args/main/setup.sh | bash
+curl https://raw.githubusercontent.com/haxxxer/args/main/configure.sh | bash
 
 
 
