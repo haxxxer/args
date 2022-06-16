@@ -24,6 +24,8 @@ Examples:
 use this commmand inside your script.
 
 
+
+
 if "-e" was passed with your script, the command above will return the value right next to it
 
 if "-e" was not passed, the exit code will be 1
@@ -31,15 +33,15 @@ if "-e" was not passed, the exit code will be 1
 if "-e" was passed but does not match  email pattern, the exit code will be 2
 
 
-if you want args to just get the value without any pattern restrection, replace email with any
+if you want args to just get the flag value without applying a pattern restrection, replace email with any
 - args -e any "@"
 
-There are 4 patteres provided with args by default:
+There are 4 patterns provided with args by default:
 
 - email
 - ip
 - url
-- host 
+- host (matches supdomains and domains) 
 - phone
 
 
