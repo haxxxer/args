@@ -50,7 +50,7 @@ you can edit the script and add your own patterns using regex
 
 you can test the command from outstide the script as follows:
 
-	args -p phone "-i hello -p 055-555-5555"
+	args -p phone "-i 'hello there' -p 055-555-5555"
 
 this should return the value of : 055-555-5555
 
@@ -61,3 +61,5 @@ where as this command:
 
 should return a status code of: 2 because the value of --ip is not valid ip address (Check status code with: echo $?)
 
+
+P.S: if a flag value contains a space, you should rap it between quotes
